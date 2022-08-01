@@ -2,27 +2,31 @@ body{
     font-family: 'Roboto Slab', serif; 
     margin: 0;
 }
-.top-banner{
+.top-banner {
     background-image: url('/Images/top-banner.png');
     background-repeat: no-repeat;
 }
-.banner-container{
+.banner-container,.mid-container{
     display: flex;
     justify-content: center;
     padding: 50px;
 }
-.banner-container-left{
+.banner-container-left,.mid-container-right{
     width: 50%;
-    padding: 80px 0;
+    
 }
-.banner-container-left h1{
+.container-headline{
     font-size: 50px;
 }
-.headline{
+.headline,.experience-headline{
     font-size: 30px;
     font-weight: 100;
 }
-.banner-container-left a{
+.content-para{
+    margin-bottom: 40px ;
+
+}
+.banner-button{
     text-decoration: none;
   background-image:linear-gradient(orange,tomato);
     padding: 10px;
@@ -30,13 +34,52 @@ body{
     border-radius: 10px;
  
 }
-.banner-container-left span{
+.container-headline-span,.exepirence-head-paragraph {
     color: orange;
 }
-.banner-container-right{
+.banner-container-right,.banner-container-left{
     width: 40%;
+    margin: 0 30px;
 }
 .banner-container-right img{
-    width: 100%;
-    height: 100%;
+    margin:50px auto;
+    width: 90%;
+    height: 80%;
 }
+.mid-banner{
+    background-image: url('/Images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner-container-left img{
+    width: 100%;
+    height: 100%; 
+}
+.exepirences-content{
+    background-image: url('/Images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.exepirences-content{
+    display: flex;
+    justify-content: center;
+    
+ 
+  
+}
+.exepirences-left-part{
+    width: 40%;
+    margin: 10px;
+    padding-left: 10px;
+ border-left:5px solid red;
+ box-shadow: 10px 10px 10px 10px  rgb(136, 127, 136);
+}
+.exepirences-right-part{
+    width: 40%;
+    margin: 10px;
+    padding: 0 5px;
+    border-left:5px solid blue;
+    box-shadow: 10px 10px 10px 10px  rgb(136, 127, 136);
+}
+
